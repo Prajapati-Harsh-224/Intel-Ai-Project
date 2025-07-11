@@ -1,7 +1,7 @@
 streamlit==1.40.1
 opencv-python==4.11.0.86
 numpy>=1.26.0
-pandas==2.0.3
+pandas==2.2.2
 matplotlib==3.7.5
 seaborn==0.13.2
 scikit-learn==0.24.2
