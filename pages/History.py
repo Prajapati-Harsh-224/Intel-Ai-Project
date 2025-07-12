@@ -27,7 +27,8 @@ if not history:
     st.info("No prediction history found for your account.")
 else:
     df = pd.DataFrame(history, columns=["Filename", "Prediction", "Confidence"])
-    df["Confidence"] = (df["Confidence"]).round(2).astype(str) + '%'
+    df["Confidence"] = pd.to_numeric(df["Confidence"], errors="coerce").round(2).astype(str) + '%'
+
     
     df.index = df.index + 1  # Start index from 1
     st.dataframe(df, use_container_width=True)
