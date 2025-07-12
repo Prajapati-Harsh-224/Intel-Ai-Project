@@ -16,3 +16,4 @@ requests
 watchdog
 blinker
 tornado
+fpdf
