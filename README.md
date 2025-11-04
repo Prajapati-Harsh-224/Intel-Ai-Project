@@ -88,37 +88,9 @@ The app will open in your browser at `http://localhost:8501`.
 
 ---
 
-## 📦 Dependencies
+## 🧑‍💻 Author
 
-Major dependencies include:
-
-- `streamlit`
-- `numpy`
-- `pandas`
-- `opencv-python`
-- `Pillow`
-- `tensorflow`
-- `scikit-learn`
-- `matplotlib`
-- `plotly`
-- `fpdf`
-
-See `requirements.txt` for the complete list.
-
----
-
-## 🧰 Notes
-
-- The model weights should be loaded within `model.py`. Ensure `model.pth` is placed correctly if loading external weights.
-- The `users.db` SQLite database stores user credentials and prediction history.
-- Custom CSS (`style.css`) enhances the appearance of the Streamlit interface.
-
----
-
-## 🧑‍💻 Authors
-
-Developed by **Shesh Kanade,Harsh Prajapati,Rutvik Sindhav,Yashkumar Desai**  
-For academic purposes and AI-based defect detection research.
+Developed by Harsh Prajapati**  
 
 ---
 
