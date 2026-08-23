@@ -25,7 +25,7 @@ Steel_Defect_Streamlit_final/
 
 ## 🚀 Features
 
-- 🔍 **Surface Defect Detection** using deep learning (PyTorch CNN)
+- 🔍 **Surface Defect Detection** using deep learning 
 - 🔐 **User Authentication** (Sign up and log in)
 - 🧠 **Real-time Predictions** on uploaded images
 - 🗂️ **Prediction History** stored per user in SQLite
