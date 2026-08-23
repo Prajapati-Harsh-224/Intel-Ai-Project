@@ -82,7 +82,7 @@ The app will open in your browser at `http://localhost:8501`.
 
 ## 🧪 Model Info
 
-- CNN implemented with PyTorch
+- CNN implemented with tensorflow
 - Input: Steel surface image (PNG/JPG/JPEG/BMP)
 - Output: Defect class label with prediction probability
 
